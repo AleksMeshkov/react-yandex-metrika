@@ -13,8 +13,8 @@ function callbackQueueName(version) {
 }
 
 function scriptPath(version) {
-    if (version === '1') return 'https://mc.yandex.ru/metrika/watch.js';
-    if (version === '2') return 'https://mc.yandex.ru/metrika/tag.js';
+    if (version === '1') return 'https://mc.yandex.com/metrika/watch.js';
+    if (version === '2') return 'https://mc.yandex.com/metrika/tag.js';
     invalidVersion();
 }
 
